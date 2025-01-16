@@ -84,6 +84,16 @@ This guide explains how to set up and use remote login to control a MacBook via 
 
 ---
 
+## Step 8: Turn Off Remote Login and Accessibility Access (Post-Work)
+
+1. Once you are done with your work, turn off **Remote Login** on the remote Mac:
+   - Open **System Settings > Sharing** and disable **Remote Login**.
+2. Revoke accessibility access for **sshd-keygen-wrapper**:
+   - Open **System Settings > Privacy & Security > Accessibility**.
+   - Uncheck **sshd-keygen-wrapper** from the list.
+
+---
+
 ## Troubleshooting
 
 - Ensure SSH is properly configured and working.
